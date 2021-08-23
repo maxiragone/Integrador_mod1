@@ -5,6 +5,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+.container_all {
+  width: 100vw;
+  height: 100vh;
+}
+
 .header {
   background-image: url(/IMG/MHA_Wallpaper.png);
   background-color: rgba(0, 0, 0, 0.3);
@@ -203,55 +208,87 @@
   color: #000000;
 }
 
-/* Manga section begins here */
+/* Manga section begins here ay si como no*/
 
 .main {
   display: flex;
+  flex-direction: column;
+  width: 100%;
 }
-.more_recent {
-  width: 75vw;
-  height: 90vh;
-  background-color: #12121c;
+
+.main_container {
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sections {
+  display: flex;
+  width: 75%;
+  background-color: #12121c;
   border-right: solid 1px #000000;
 }
 
-.searcher {
-  width: 50%;
-  height: 1%;
+.more_recent {
+  height: 100vh;
+  width: 100%;
 }
 
-.searcher input {
-  background-color: rgba(0, 0, 0, 0.33);
-  color: #b2b2ae;
-  width: 60%;
-  border: 0.5px solid #000000;
-  margin: 30px 0 10px 20px;
+.title_search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
 }
 
-.title_more_recent {
-  width: 50%;
-  height: 1%;
-  padding: 30px 20px 0 0;
-}
-
-.title_more_recent h2 {
-  float: right;
-  background-color: #efe60d;
+.title {
+  display: flex;
+  align-items: center;
+  width: max-content;
   padding: 5px 20px 5px 20px;
   border: solid 1px #767372;
   border-radius: 2px;
   -webkit-box-shadow: 6px 3px 15px 5px #000000;
   box-shadow: 6px 3px 15px 5px #000000;
+  background-color: #efe60d;
 }
 
-/* .recent_mangas {
-  width: 100%;
+.search {
+  width: max-content;
+  margin-right: 20px;
+}
+
+.search input {
+  padding-right: 150px;
+  background-color: rgba(0, 0, 0, 0.33);
+  color: #b2b2ae;
+  border: 0.5px solid #000000;
+}
+
+.container_mangas {
+  background-color: red;
   height: 100%;
-} */
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.container_img_manga {
+  width: 200px;
+  height: 200px;
+}
+
+.container_img_manga img {
+  width: 100%;
+}
+
 .aside {
-  width: 25vw;
-  height: 25vh;
+  width: 25%;
   background-color: #861610;
 }
