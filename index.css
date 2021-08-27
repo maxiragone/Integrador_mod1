@@ -37,6 +37,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 1;
 }
 .navbar_logo {
   width: 500px;
@@ -232,7 +233,7 @@
 }
 
 .more_recent {
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
 }
 
@@ -272,30 +273,84 @@
 }
 
 .container_mangas {
-  /* background-color: #12121c; */
-  height: 100%;
   color: white;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  padding: 20px 0 0 76px;
+  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+  row-gap: 1.5rem;
+  justify-items: center;
+  align-content: space-around;
+  padding: 20px 0 0 0;
   /* grid-auto-rows: minmax(100px, auto); */
 }
 
 .container_img_manga {
-  width: 150px;
-  height: 200px;
+  position: relative;
+  max-width: 160px;
+  -webkit-box-shadow: 5px 1px 7px 3px rgba(0, 0, 0, 0.55);
+  box-shadow: 5px 1px 7px 3px rgba(0, 0, 0, 0.55);
+  border: 1px solid rgb(14, 12, 12);
 }
 
 .container_img_manga img {
+  /* width: 250px; */
   width: 100%;
-  height: 100%;
+  /* height: 250px; */
+}
+
+.container_img_manga img:hover {
+  opacity: 0.55;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.texto_img {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgb(0 0 0 / 65%);
+  font-weight: 300;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 15px 8px;
+  box-sizing: border-box;
+  font-size: 0.8rem;
+}
+
+.texto_img:hover {
+  color: #efe60d;
+  transition: ease-in-out 0.3s;
 }
 
 .see_more {
-  background-color: black;
-  width: 90%;
+  /* width: 67vw; */
   display: flex;
-  justify-items: center;
+  justify-content: center;
+  padding: 20px 0 20px 0;
+}
+
+.btn_ver_mas {
+  width: 164px;
+  height: 42px;
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  background-color: rgba(193, 41, 33, 1);
+  border-radius: 30px;
+  border: 0.5px solid #000000;
+  color: #ffff;
+}
+
+.btn_ver_mas:hover {
+  background-color: rgb(179, 39, 32);
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+.btn_ver_mas:active {
+  background-color: rgb(163, 36, 29);
 }
 
 .aside {
