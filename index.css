@@ -361,6 +361,7 @@
   height: 100vh;
   border-top: 1px solid;
   padding: 35px 0;
+  margin: 0 0 20px 0;
 }
 
 .title_galery {
@@ -442,6 +443,84 @@ ul.slider li:target {
   font-size: 20px;
   border-radius: 100%;
   margin: 0 10px 0 0;
+}
+
+/* Newsletter section  */
+
+.newsletter {
+  width: 100%;
+  height: 45vh;
+  border-top: 1px solid;
+  padding: 13px 0;
+}
+
+.title_newsletter {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  padding: 5px 20px 5px 20px;
+  margin: 0 0 0px 0;
+  border: solid 1px #767372;
+  border-radius: 2px;
+  -webkit-box-shadow: 6px 3px 15px 5px #000000;
+  box-shadow: 6px 3px 15px 5px #000000;
+  background-color: #efe60d;
+}
+
+.imgNaruto_text {
+  width: 100%;
+  height: 81%;
+  display: flex;
+}
+
+.imgNaruto {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgNaruto img {
+  width: 120px;
+}
+
+.textNewsletter_emailButton {
+  width: 76%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  padding: 0 0 0 20px;
+}
+
+.textNewsletter {
+  width: max-content;
+}
+
+.textNewsletter input {
+  width: 655px;
+  height: 100px;
+  background-color: #c4c4c4;
+  color: #000;
+  border: 0.5px solid #000000;
+}
+
+.emailButton {
+  padding: 10px 0 0 0;
+}
+
+.emailButton input {
+  width: 500px;
+  background-color: rgba(196, 196, 196, 0.33);
+  color: #b2b2ae;
+}
+
+.emailButton a {
+  text-decoration: none;
+  margin: 10px;
+  letter-spacing: 1.5px;
+  padding: 5px 10px;
+  background-color: #aa111e;
+  color: #b2b2ae;
 }
 
 .aside {
