@@ -496,7 +496,10 @@ ul.slider li:target {
   width: max-content;
 }
 
-.textNewsletter input {
+.textNewsletter p {
+  /* font-weight: bold; */
+  text-align: center;
+  letter-spacing: 0.5px;
   width: 655px;
   height: 100px;
   background-color: #c4c4c4;
@@ -523,7 +526,125 @@ ul.slider li:target {
   color: #b2b2ae;
 }
 
+/* Contacts Section */
+.contact {
+  border-top: 1px solid;
+  padding: 13px 0;
+  height: 72vh;
+}
+
+.title_contact {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  padding: 5px 20px 5px 20px;
+  margin: 0 0 0px 0;
+  border: solid 1px #767372;
+  border-radius: 2px;
+  -webkit-box-shadow: 6px 3px 15px 5px #000000;
+  box-shadow: 6px 3px 15px 5px #000000;
+  background-color: #efe60d;
+}
+
+.form_contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 90%;
+}
+
+.name_mailContact {
+  width: 20rem;
+}
+
+.messegeContact {
+  width: 40rem;
+  height: 10rem;
+}
+
+.form_contact a {
+  text-decoration: none;
+  margin: 10px;
+  letter-spacing: 1.5px;
+  padding: 5px 10px;
+  background-color: #aa111e;
+  color: #b2b2ae;
+}
+
 .aside {
   width: 25%;
   background-color: #861610;
+}
+
+.container_cards_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title_aside {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  padding: 5px 110px 5px 110px;
+  margin: 2rem 0 0 0;
+  border: solid 1px #767372;
+  border-radius: 2px;
+  -webkit-box-shadow: 6px 3px 15px 5px #000000;
+  box-shadow: 6px 3px 15px 5px #000000;
+  background-color: #efe60d;
+}
+
+.series_aside {
+  width: 90%;
+  display: grid;
+  row-gap: 2rem;
+  margin: 2rem 0;
+}
+
+.card_aside {
+  background-color: rgba(175, 96, 104, 1);
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 1px 7px 3px rgb(0 0 0 / 55%);
+  border: 1px solid rgb(14, 12, 12);
+}
+
+.img_top {
+  width: 34%;
+  height: 123px;
+  border: 1px solid black;
+  margin: 4px;
+}
+
+.img_top img {
+  width: 100%;
+  height: 100%;
+}
+
+.text_top h3 {
+  color: #fff;
+}
+
+.text_top img {
+  width: 1rem;
+  margin: 2rem 0 0;
+}
+
+.button_aside_seemore {
+  display: flex;
+  justify-content: center;
+}
+
+.button_aside_seemore button {
+  width: 164px;
+  height: 42px;
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  background-color: rgba(193, 41, 33, 1);
+  border-radius: 30px;
+  border: 0.5px solid #000000;
+  color: #ffff;
 }
