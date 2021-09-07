@@ -6,15 +6,55 @@
 }
 
 .container_all {
-  width: 100vw;
+  /* width: 100vw; */
   /* height: 100vh; */
+  /*
+      Porque no vas y le dices mujer que no lo amas a él
+      Escucha, 'cucha, 'cucha
+      La Champion's Liga
+      ¡Bailen chiche, bailen dale!
+      Sé que me amas a mí, que no amas a otro
+      Que soy tu eterno enamorado
+      Amor
+      Te he visto vagando con tristeza en tu rostro
+      Tu corazón destrozado a causa del dolor
+      Porque no vas y le dices mujer que no lo amas a él
+      No lo engañes más
+      Porque no vas y le dices la verdad
+      De lo que ha sido y será
+      Por siempre tu único amor
+      Te escribí y escucha bien esta canción
+      Que nace desde lo profundo del corazón
+      Por cada duda siempre hay una explicación
+      Si yo te amo a ti y tu me decís no
+      Yo no comprendo si en verdad tú no lo quieres
+      Si en mi mente hay algo que me entristece
+      Hay algo dentro de mi alma que se desvanece
+      Porque tú no estas
+      Porque no vas y le dice mujer que no lo amas a él
+      No lo engañes más
+      Porque no vas y le dices la verdad de lo que ha sido y será
+      Por siempre tu único amor
+      Como le explico al corazón si el no quiere entender
+      Que en esto del amor hay que saber perder
+      Solo debo resignarme, solo sé baby
+      Si tú sabes que sin ti yo no vivo
+      Piensá que el orgullo ha sido mi peor castigo
+      Porque no vas y le dices mujer que no lo amas a él
+      No lo engañes más
+      Porque no vas y le dices la verdad de lo que ha sido y será
+      Por siempre tu único amor
+      No lo engañes más 
+  */
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
   background-image: url(/IMG/MHA_Wallpaper.png);
   background-color: rgba(0, 0, 0, 0.3);
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-blend-mode: soft-light;
   background-attachment: fixed;
   display: flex;
