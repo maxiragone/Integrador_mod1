@@ -6,46 +6,6 @@
 }
 
 .container_all {
-  /* width: 100vw; */
-  /* height: 100vh; */
-  /*
-      Porque no vas y le dices mujer que no lo amas a él
-      Escucha, 'cucha, 'cucha
-      La Champion's Liga
-      ¡Bailen chiche, bailen dale!
-      Sé que me amas a mí, que no amas a otro
-      Que soy tu eterno enamorado
-      Amor
-      Te he visto vagando con tristeza en tu rostro
-      Tu corazón destrozado a causa del dolor
-      Porque no vas y le dices mujer que no lo amas a él
-      No lo engañes más
-      Porque no vas y le dices la verdad
-      De lo que ha sido y será
-      Por siempre tu único amor
-      Te escribí y escucha bien esta canción
-      Que nace desde lo profundo del corazón
-      Por cada duda siempre hay una explicación
-      Si yo te amo a ti y tu me decís no
-      Yo no comprendo si en verdad tú no lo quieres
-      Si en mi mente hay algo que me entristece
-      Hay algo dentro de mi alma que se desvanece
-      Porque tú no estas
-      Porque no vas y le dice mujer que no lo amas a él
-      No lo engañes más
-      Porque no vas y le dices la verdad de lo que ha sido y será
-      Por siempre tu único amor
-      Como le explico al corazón si el no quiere entender
-      Que en esto del amor hay que saber perder
-      Solo debo resignarme, solo sé baby
-      Si tú sabes que sin ti yo no vivo
-      Piensá que el orgullo ha sido mi peor castigo
-      Porque no vas y le dices mujer que no lo amas a él
-      No lo engañes más
-      Porque no vas y le dices la verdad de lo que ha sido y será
-      Por siempre tu único amor
-      No lo engañes más 
-  */
   display: flex;
   flex-direction: column;
 }
@@ -566,7 +526,7 @@ ul.slider li:target {
   color: #b2b2ae;
 }
 
-/* Contacts Section */
+/* Section for contact */
 .contact {
   border-top: 1px solid;
   padding: 13px 0;
@@ -612,6 +572,8 @@ ul.slider li:target {
   color: #b2b2ae;
 }
 
+/* Start Aside */
+
 .aside {
   width: 25%;
   background-color: #861610;
@@ -652,8 +614,8 @@ ul.slider li:target {
 }
 
 .img_top {
-  width: 34%;
-  height: 123px;
+  width: 30%;
+  height: 114px;
   border: 1px solid black;
   margin: 4px;
 }
@@ -687,4 +649,95 @@ ul.slider li:target {
   border-radius: 30px;
   border: 0.5px solid #000000;
   color: #ffff;
+}
+
+/* Oh yeeessss the footer  */
+.footer {
+  width: 100%;
+  height: 45vh;
+  background-color: #070707;
+}
+
+.container_footer {
+  width: 100%;
+  height: 45vh;
+}
+
+.logo_footer {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_footer img {
+  width: 200px;
+}
+
+.listFooter_mobile {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+
+.list_footer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list_footer ul a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #d8d8d4;
+}
+
+.list_footer ul a li {
+  padding: 5px 0;
+  position: relative;
+}
+
+.list_footer ul a li::before {
+  content: "";
+  height: 3px;
+  width: 0%;
+  background: #f5ee36;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  transition: 0.8s ease-out;
+}
+
+.list_footer ul a li:hover::before {
+  width: 100%;
+}
+
+.mobile_logos {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_appleFooter img {
+  width: 200px;
+  padding: 0 0 10px 0;
+}
+
+.logo_androidFooter img {
+  width: 200px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  height: 20%;
+  align-items: center;
+}
+.copyright p {
+  color: #ffffff;
 }
