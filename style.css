@@ -741,3 +741,107 @@ ul.slider li:target {
 .copyright p {
   color: #ffffff;
 }
+
+/* Register / Login  */
+
+.login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #12121c;
+}
+
+.container_imgLogin {
+  width: 70%;
+  height: 100%;
+}
+
+.container_imgLogin img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: rgba(243, 0, 0, 0.541);
+  background-blend-mode: soft-light;
+}
+
+.datesLogin {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .titleLogin {
+  width: 100%;
+  padding-left: 62px;
+} */
+
+.titleLogin h2 {
+  color: #767372;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  border-bottom: 4px solid #f5ee36;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+
+.inputContainer {
+  margin-bottom: 20px;
+}
+
+.inputContainer span {
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: inline-block;
+  color: #f5ee36;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.inputContainer input {
+  width: 100%;
+  padding: 10px 20px;
+  outline: none;
+  font-weight: 400;
+  border: 1px solid #ffff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #607d8b;
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+.inputContainer input[type="submit"] {
+  width: 100%;
+  background: #aa111e;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.inputContainer input[type="submit"]:hover {
+  background: #aa111ec7;
+}
+
+.remember {
+  margin-bottom: 10px;
+  color: #607d8b;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.inputContainer p {
+  color: #607d8b;
+}
+
+.inputContainer a {
+  color: #f5ee36;
+}
