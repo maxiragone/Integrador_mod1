@@ -5,9 +5,13 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  width: 100vw;
+}
 .container_all {
   display: flex;
   flex-direction: column;
+  /* width: 100%; */
 }
 
 .header {
@@ -110,7 +114,7 @@
   height: 200px;
   background-color: rgba(0, 0, 0, 65%);
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   border-radius: 20px;
 }
 
@@ -230,7 +234,7 @@
   width: 75%;
   /* height: max-content; */
   background-color: #12121c;
-  border-right: solid 1px #000000;
+  border-right: solid 3px #000000;
 }
 
 .more_recent {
@@ -844,4 +848,9 @@ ul.slider li:target {
 
 .inputContainer a {
   color: #f5ee36;
+}
+
+/* Let the pain begin  */
+
+@media screen and (max-width: 768px) {
 }
