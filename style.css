@@ -10,9 +10,6 @@ body {
   flex-direction: column;
   /* width: 100vw; */
 }
-.container_all {
-  /* width: 100%; */
-}
 
 .header {
   background-image: url(/IMG/MHA_Wallpaper.png);
@@ -638,6 +635,12 @@ ul.slider li:target {
   margin: 2rem 0 0;
 }
 
+.btn_seeMore {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .button_aside_seemore {
   display: flex;
   justify-content: center;
@@ -852,5 +855,232 @@ ul.slider li:target {
 
 /* Let the pain begin  */
 
-@media screen and (max-width: 768px) {
+@media (max-width: 1222px) {
+  .textNewsletter p {
+    width: 500px;
+    height: 70px;
+  }
+
+  .emailButton {
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .emailButton a {
+    margin: 10px 0 0;
+    width: max-content;
+  }
+}
+
+@media (max-width: 1056px) {
+  .title_aside {
+    padding: 5px 40px 5px 40px;
+  }
+}
+
+@media (max-width: 926px) {
+  .download_app {
+    flex-direction: column;
+
+    height: 200px;
+    width: 290px;
+    justify-content: space-evenly;
+  }
+
+  .img_luffy_header {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .img_luffy_header img {
+    width: 59px;
+    height: 87px;
+  }
+
+  .h1_button_container {
+    width: 100%;
+  }
+
+  .h1_container_header h1 {
+    font-size: 1.5rem;
+  }
+
+  .button_container_header {
+    margin: 0;
+  }
+
+  .button_container_header button {
+    width: 166px;
+    height: 35px;
+  }
+
+  .header {
+    height: 85vh;
+  }
+  .main_container {
+    flex-direction: column;
+  }
+
+  .sections {
+    width: 100%;
+    border-right: none;
+  }
+
+  .aside {
+    width: 100%;
+  }
+
+  .series_aside {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2fr;
+    grid-column-gap: 2rem;
+  }
+}
+
+@media (max-width: 730px) {
+  .textNewsletter p {
+    font-size: 0.8rem;
+    width: 326px;
+    height: 77px;
+  }
+
+  .emailButton input {
+    width: 326px;
+  }
+}
+
+@media (max-width: 700px) {
+  .name_mailContact {
+    width: 10rem;
+  }
+
+  .name_mailContact {
+    width: 10rem;
+  }
+
+  .messegeContact {
+    width: 20rem;
+    height: 5rem;
+  }
+}
+
+@media (max-width: 662px) {
+  .navbar {
+    flex-direction: column;
+    height: 20vh;
+  }
+
+  .navbar_logo {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .navbar_logo img {
+    width: 240px;
+    height: 50px;
+  }
+
+  .container_navbar_list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar_list {
+    justify-content: center;
+  }
+
+  .rest_header {
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .button_container_header button {
+    margin-bottom: 2px;
+  }
+
+  .download_app {
+    margin: 0 0 20px 0;
+  }
+
+  .h1_img_title_container {
+    height: auto;
+  }
+
+  .social_media {
+    height: auto;
+  }
+
+  .icons_socialmedia {
+    height: 65px;
+  }
+
+  .icons_socialmedia i {
+    font-size: 2rem;
+  }
+
+  .recent_h2 {
+    font-size: 1rem;
+  }
+
+  .search input {
+    width: 174px;
+  }
+
+  .series_aside {
+    grid-template-rows: 106px;
+  }
+
+  .card_aside {
+    height: 116px;
+  }
+
+  .img_top {
+    height: 73px;
+  }
+
+  .text_top h3 {
+    font-size: 1rem;
+  }
+  .text_top span {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 500x) {
+  .icons_socialmedia i {
+    font-size: 1.5rem;
+  }
+  .imgNaruto {
+    display: none;
+  }
+
+  .textNewsletter_emailButton {
+    width: 100%;
+    align-items: center;
+  }
+
+  .galery {
+    height: 81vh;
+  }
+
+  .list_footer {
+    font-size: 0.9rem;
+  }
+
+  .logo_appleFooter img {
+    width: 160px;
+  }
+
+  .logo_androidFooter img {
+    width: 160px;
+  }
+
+  .copyright p {
+    font-size: 0.8rem;
+    margin-top: 20px;
+  }
 }
