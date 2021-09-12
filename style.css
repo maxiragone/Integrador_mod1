@@ -1118,6 +1118,10 @@ ul.slider li:target {
 }
 
 @media (max-width: 500px) {
+  .header {
+    background-size: cover;
+  }
+
   .h1_container_header h1 {
     font-size: 1rem;
   }
@@ -1166,7 +1170,19 @@ ul.slider li:target {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
+  .navbar {
+    height: 16vh;
+  }
+  .navbar_logo img {
+    width: 222px;
+    height: 40px;
+  }
+
+  .navbar_list a {
+    font-size: 0.9rem;
+    padding: 6px 10px 6px 10px;
+  }
   .series_aside {
     grid-template-columns: 1fr;
   }
